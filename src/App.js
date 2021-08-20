@@ -7,16 +7,14 @@ export default function App() {
       questionText: "Have you ever told a white lie?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: false }
       ]
     },
     {
       questionText: "Have you ever dated a friends ex? ",
       answerOptions: [
-        { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
+        { answerText: "Yes", isCorrect: false },
+        { answerText: "No", isCorrect: true },
         { answerText: "Its Complicated", isCorrect: false }
       ]
     },
@@ -24,8 +22,7 @@ export default function App() {
       questionText: "Have you ever felt unheard?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false }
+        { answerText: "No", isCorrect: false }
       ]
     },
     {
@@ -33,8 +30,7 @@ export default function App() {
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
@@ -43,8 +39,7 @@ export default function App() {
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
@@ -52,35 +47,31 @@ export default function App() {
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
       questionText: "Do you struggle with apologizing?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
       questionText: "Would you get a tattoo of your significant Otter's name?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
-      questionText: "Have you ever told a white lie?",
+      questionText: "Have you ever been discriminated against?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
@@ -88,62 +79,54 @@ export default function App() {
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
       questionText: "Do you completely trust your significant Otter?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
       questionText: "Have you ever broken up over text?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
       questionText: "Do you like horror movies?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
       questionText: "Do you like to excercise?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true }
       ]
     },
     {
       questionText: "DO you consider yourself controversial?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
       questionText: "Do you believe in a higher being?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
@@ -209,16 +192,23 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Honest Otter Question Game</h1>
+      <h5> |Conversation starters for you & your significant Otter|</h5>
       {/* replace "false" logic to display the score when the user has answered all the questions*/}
       {showScore ? (
         <div className="question-section">
           {" "}
-          You scored {score} out of {questions.length}
+          You scored {score} integrity points out of {questions.length}
         </div>
       ) : (
         <>
           <div className="question-count">
-            <span> Question {currentQuestion + 1}</span>/{questions.length}
+            <span className="question__number">
+              {" "}
+              Question{" "}
+              <span className="current-question">{currentQuestion + 1}</span>
+            </span>
+            /{questions.length}
           </div>
           <div className="question-text">
             {" "}
