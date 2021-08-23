@@ -1,5 +1,7 @@
 import "./styles.css";
 import React, { useState } from "react";
+import Icon from "../components/images/icon.png";
+import CuteOtter from "../components/images/cuteOtter.png";
 
 export default function App() {
   const questions = [
@@ -7,26 +9,28 @@ export default function App() {
       questionText: "Have you ever told a white lie?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false }
+        { answerText: "No", isCorrect: true }
       ]
     },
     {
-      questionText: "Have you ever dated a friends ex? ",
+      questionText:
+        "Have you ever gotten caught dancing in front of the mirror? ",
       answerOptions: [
-        { answerText: "Yes", isCorrect: false },
+        { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: true },
-        { answerText: "Its Complicated", isCorrect: false }
+        { answerText: "Its Complicated", isCorrect: true }
       ]
     },
     {
       questionText: "Have you ever felt unheard?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false }
+        { answerText: "No", isCorrect: true }
       ]
     },
     {
-      questionText: "Would you ever stay friends with an ex?",
+      questionText:
+        "Have you ever forgotten someone's name even though you’ve spent time with them in the past?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: false },
@@ -34,16 +38,15 @@ export default function App() {
       ]
     },
     {
-      questionText:
-        "Would you tell a lie to keep from hurting your significant Otter's feelings?",
+      questionText: "Have you ever gotten locked out of your own house?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
+        { answerText: "No", isCorrect: true },
         { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
-      questionText: "Would you share your phone password?",
+      questionText: "Have you ever had an imaginary friend?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: false },
@@ -59,7 +62,7 @@ export default function App() {
       ]
     },
     {
-      questionText: "Would you get a tattoo of your significant Otter's name?",
+      questionText: "Do you think you would be a good ninja?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: true },
@@ -67,7 +70,8 @@ export default function App() {
       ]
     },
     {
-      questionText: "Have you ever been discriminated against?",
+      questionText:
+        "Have you ever “sharted”? As in farted, but pooped yourself a little?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: true },
@@ -75,19 +79,20 @@ export default function App() {
       ]
     },
     {
-      questionText: "Have you ever done something you regret in life?",
-      answerOptions: [
-        { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: true }
-      ]
-    },
-    {
-      questionText: "Do you completely trust your significant Otter?",
+      questionText: "Have you ever made a ridiculous impulse purchase?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: true },
         { answerText: "Its Complicated", isCorrect: true }
+      ]
+    },
+    {
+      questionText:
+        "Have you ever slept in until 3 in the afternoon or later? ",
+      answerOptions: [
+        { answerText: "Yes", isCorrect: true },
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
@@ -122,7 +127,7 @@ export default function App() {
       ]
     },
     {
-      questionText: "Do you believe in a higher being?",
+      questionText: "Do you like piña coladas?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
         { answerText: "No", isCorrect: true },
@@ -130,41 +135,33 @@ export default function App() {
       ]
     },
     {
-      questionText:
-        "Do you have a bias towards any racial, religious or political group?",
+      questionText: "Do your parents ever embarrass you?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true }
       ]
     },
     {
-      questionText:
-        "Have you ever crushed on someome other than your Otter while in a relationship?",
+      questionText: "Do you think you will have any regrets when you’re 90?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
-      questionText: "Would you leave your significant Otter for $1million?",
+      questionText: "Do you believe in ghosts?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true },
+        { answerText: "Its Complicated", isCorrect: false }
       ]
     },
     {
-      questionText: "Do you believe in love at first sight?",
+      questionText: "Do you sing in the shower?",
       answerOptions: [
         { answerText: "Yes", isCorrect: true },
-        { answerText: "No", isCorrect: false },
-        { answerText: "Its Complicated", isCorrect: false },
-        { answerText: "never", isCorrect: false }
+        { answerText: "No", isCorrect: true }
       ]
     }
   ];
@@ -192,9 +189,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Honest Otter Question Game</h1>
+      <h1> Honest Otter Question Game</h1>
       <h5> |Conversation starters for you & your significant Otter|</h5>
-      {/* replace "false" logic to display the score when the user has answered all the questions*/}
       {showScore ? (
         <div className="question-section">
           {" "}
